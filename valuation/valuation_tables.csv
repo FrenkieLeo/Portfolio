@@ -1,0 +1,1 @@
+record_id,ticker,company_name,sector,pe_low,pe_high,pe_median,eps_2026_ngap,fair_price_2026_low,fair_price_2026_high,median_price_2026,support_zone,eps_2027_ngap,fair_price_2027_low,fair_price_2027_high,median_price_2027,market_price,valuation_status,source_image,created_at,notes
