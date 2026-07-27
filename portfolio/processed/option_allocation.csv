@@ -1,0 +1,5 @@
+underlying_symbol,strategy,realized_option_pnl,allocation_status,note
+ASX,needs_contract_linking,-50.096661,provisional_ibkr_underlying_symbol,Next iteration should link specific option contract expiry/strike to PMCC or standalone strategy.
+GOOG,needs_contract_linking,-510.94783900000004,provisional_ibkr_underlying_symbol,Next iteration should link specific option contract expiry/strike to PMCC or standalone strategy.
+NVDA,needs_contract_linking,321.847526,provisional_ibkr_underlying_symbol,Next iteration should link specific option contract expiry/strike to PMCC or standalone strategy.
+POET,needs_contract_linking,4.948636,provisional_ibkr_underlying_symbol,Next iteration should link specific option contract expiry/strike to PMCC or standalone strategy.
