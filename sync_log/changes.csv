@@ -1,0 +1,2 @@
+date,change_type,path,summary
+2026-07-27,init,portfolio/;tradingplan/;valuation/;dashboard/;sync_log/,Initialized portfolio operating system and first IBKR YTD sync
