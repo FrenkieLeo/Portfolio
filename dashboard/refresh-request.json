@@ -1,0 +1,25 @@
+{
+  "type": "manual_refresh_request",
+  "repository": "FrenkieLeo/Portfolio",
+  "requested_at": "2026-07-27T08:33:24Z",
+  "base_date": "2026-07-27",
+  "requested_by": "dashboard_refresh_button",
+  "refresh_policy": {
+    "read_last_sync_first": true,
+    "ibkr_incremental_from": "portfolio/raw/last_sync.json:last_successful_refresh_at",
+    "update_return_series": true,
+    "update_positions": true,
+    "update_liquidity": true,
+    "update_contract_bindings": true,
+    "write_sync_log": true
+  },
+  "latest_executed_refresh": {
+    "ibkr_last_successful_update": "2026-07-27 08:33:24",
+    "net_liquidation": 20839.45,
+    "total_cash_value": 3395.12,
+    "buying_power": 16682.92,
+    "available_funds": 4170.73,
+    "excess_liquidity": 4170.73,
+    "ytd_twr": -0.14248793
+  }
+}
