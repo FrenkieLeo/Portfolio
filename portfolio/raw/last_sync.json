@@ -3,59 +3,39 @@
   "source": "Interactive Brokers",
   "period": "YEAR_TO_DATE",
   "generated_at": "2026-07-27T08:14:16.941Z",
-  "ibkr_last_successful_update": "2026-07-27 08:14:08",
+  "last_successful_refresh_at": "2026-07-27T08:33:24Z",
+  "ibkr_last_successful_update": "2026-07-27 08:33:24",
   "ibkr_account_start": "20251203",
   "ibkr_account_end": "20260727",
   "trades_count": 77,
   "positions_count": 7,
   "open_orders_count": 0,
   "saved_instructions_count": 0,
-  "net_liquidation": 20816.29,
   "currency": "USD",
-  "last_liquidity_sync_at": "2026-07-27T08:25:16.353Z",
+  "net_liquidation": 20839.45,
+  "ytd_twr": -0.14248793,
   "account_liquidity": {
     "currency": "USD",
-    "net_liquidation": 20857.47,
-    "total_cash_value": 3395.1,
-    "available_funds": 4169.6,
-    "buying_power": 16678.38,
-    "excess_liquidity": 4169.6,
-    "equity_with_loan_value": 4427.76,
-    "initial_margin": 258.16,
-    "maintenance_margin": 258.16,
+    "net_liquidation": 20839.45,
+    "total_cash_value": 3395.12,
+    "available_funds": 4170.73,
+    "buying_power": 16682.92,
+    "excess_liquidity": 4170.73,
+    "equity_with_loan_value": 4429.27,
+    "gross_position_value": 17444.33,
+    "initial_margin": 258.54,
+    "maintenance_margin": 258.54,
     "leverage": "0.84",
     "day_trades_remaining": "3"
   },
-  "cash_balances_by_currency": [
-    {
-      "currency": "BASE",
-      "cash_balance": 3395.1031,
-      "settled_cash": 3395.1031,
-      "net_liquidation_value": 20857.4698,
-      "stock_market_value": 1032.66,
-      "unrealized_pnl": -3609.61,
-      "realized_pnl": 0,
-      "exchange_rate": 1
-    },
-    {
-      "currency": "HKD",
-      "cash_balance": 25543.08,
-      "settled_cash": 25543.08,
-      "net_liquidation_value": 25543.08,
-      "stock_market_value": 0,
-      "unrealized_pnl": 0,
-      "realized_pnl": 0,
-      "exchange_rate": 0.1275164
-    },
-    {
-      "currency": "USD",
-      "cash_balance": 137.96,
-      "settled_cash": 137.96,
-      "net_liquidation_value": 17600.3267,
-      "stock_market_value": 1032.66,
-      "unrealized_pnl": -3609.61,
-      "realized_pnl": 0,
-      "exchange_rate": 1
-    }
-  ]
+  "refreshable_dashboard": {
+    "path": "dashboard/index.html",
+    "request_path": "dashboard/refresh-request.json",
+    "workflow_path": "dashboard/refresh-workflow.md"
+  },
+  "contract_binding": {
+    "option_contract_bindings_path": "portfolio/processed/option_contract_bindings.csv",
+    "pmcc_strategy_ledger_path": "portfolio/processed/pmcc_strategy_ledger.csv",
+    "status": "partial_short_call_contract_details"
+  }
 }
