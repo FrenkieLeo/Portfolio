@@ -1,0 +1,3 @@
+underlying,long_binding_id,long_cost_basis,current_leaps_value,short_premium_collected,short_close_cost,reported_realized_pnl,allocated_net_credit,adjusted_strategy_cost,open_unrealized_pnl,contract_detail_status,notes
+GOOG,PMCC-GOOG-20260612-LONG,11303.0508,8049.53995,993,273,277.725496,720,10583.0508,-2533.51085,partial,"Short call expiry/strike missing in trade snapshot; allocation is symbol-level until contract details are enriched."
+NVDA,PMCC-NVDA-20260622-LONG,8525.0483,7793.460085,578,249,321.847526,329,8196.0483,-402.588215,partial,"Short call expiry/strike missing in trade snapshot; allocation is symbol-level until contract details are enriched."
