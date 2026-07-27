@@ -1,0 +1,4 @@
+as_of,currency,cash_balance,settled_cash,net_liquidation_value,stock_market_value,unrealized_pnl,realized_pnl,exchange_rate,base_equivalent_cash
+2026-07-27T08:25:16.353Z,BASE,3395.1031,3395.1031,20857.4698,1032.66,-3609.61,0,1,3395.1031
+2026-07-27T08:25:16.353Z,HKD,25543.08,25543.08,25543.08,0,0,0,0.1275164,3257.1616
+2026-07-27T08:25:16.353Z,USD,137.96,137.96,17600.3267,1032.66,-3609.61,0,1,137.9600
