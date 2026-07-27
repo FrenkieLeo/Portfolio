@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Portfolio Dashboard</title>
+<style>
+body{margin:0;font-family:Arial,system-ui,sans-serif;background:#f8fafc;color:#0f172a}header{padding:24px 32px;background:#0f172a;color:white}main{padding:24px 32px;display:grid;gap:20px}section{background:white;border:1px solid #e2e8f0;border-radius:8px;padding:18px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.metric{border:1px solid #e2e8f0;border-radius:8px;padding:12px}.metric b{display:block;font-size:24px;margin-top:6px}img{max-width:100%;height:auto;border-radius:8px;background:#0f172a}a{color:#0369a1}
+</style></head>
+<body><header><h1>Portfolio Dashboard</h1><p>Data is read from committed CSV files. Latest seed sync: 2026-07-27.</p></header>
+<main><section class="grid"><div class="metric">IBKR YTD trades<b>77</b></div><div class="metric">Open positions<b>7</b></div><div class="metric">Latest TWR return<b>-14.3577%</b></div><div class="metric">Latest NAV<b>20816.29 USD</b></div></section>
+<section><h2>Total Portfolio Return</h2><img src="charts/total_return_curve.svg" alt="Total return curve"></section>
+<section><h2>Data Files</h2><p><a href="../portfolio/processed/positions.csv">positions.csv</a> · <a href="../portfolio/processed/realized_pnl.csv">realized_pnl.csv</a> · <a href="../portfolio/processed/portfolio_nav_curve.csv">portfolio_nav_curve.csv</a> · <a href="../valuation/valuation_tables.csv">valuation_tables.csv</a></p></section></main></body></html>
