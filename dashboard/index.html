@@ -7,4 +7,16 @@ body{margin:0;font-family:Arial,system-ui,sans-serif;background:#f8fafc;color:#0
 <body><header><h1>Portfolio Dashboard</h1><p>Data is read from committed CSV files. Latest seed sync: 2026-07-27.</p></header>
 <main><section class="grid"><div class="metric">IBKR YTD trades<b>77</b></div><div class="metric">Open positions<b>7</b></div><div class="metric">Latest TWR return<b>-14.3577%</b></div><div class="metric">Latest NAV<b>20816.29 USD</b></div></section>
 <section><h2>Total Portfolio Return</h2><img src="charts/total_return_curve.svg" alt="Total return curve"></section>
-<section><h2>Data Files</h2><p><a href="../portfolio/processed/positions.csv">positions.csv</a> · <a href="../portfolio/processed/realized_pnl.csv">realized_pnl.csv</a> · <a href="../portfolio/processed/portfolio_nav_curve.csv">portfolio_nav_curve.csv</a> · <a href="../valuation/valuation_tables.csv">valuation_tables.csv</a></p></section></main></body></html>
+<section><h2>Data Files</h2><p><a href="../portfolio/processed/positions.csv">positions.csv</a> · <a href="../portfolio/processed/realized_pnl.csv">realized_pnl.csv</a> · <a href="../portfolio/processed/portfolio_nav_curve.csv">portfolio_nav_curve.csv</a> · <a href="../valuation/valuation_tables.csv">valuation_tables.csv</a></p></section></main>
+<section id="liquidity">
+  <h2>Cash & Liquidity</h2>
+  <div class="cards">
+    <div class="card"><span>Cash Balance</span><strong>$3,395.10</strong></div>
+    <div class="card"><span>Available Funds</span><strong>$4,169.60</strong></div>
+    <div class="card"><span>Buying Power</span><strong>$16,678.38</strong></div>
+    <div class="card"><span>Excess Liquidity</span><strong>$4,169.60</strong></div>
+  </div>
+  <p class="muted">Updated 2026-07-27T08:25:16.353Z. Cash is reported in account base currency; currency-level details are in <code>portfolio/processed/cash_balances.csv</code>.</p>
+</section>
+
+</body></html>
