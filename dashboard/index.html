@@ -3,192 +3,20 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Portfolio Dashboard - 2026-07-27</title>
+<title>Portfolio Dashboard - Refreshable</title>
 <style>
-:root{--bg:#f6f7f9;--ink:#111827;--muted:#64748b;--line:#d9dee7;--panel:#fff;--brand:#14532d;--soft:#ecfdf5;--warn:#fff7ed;--danger:#991b1b}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink)}
-header{padding:28px 32px;background:#10251a;color:white}header h1{margin:0;font-size:28px;letter-spacing:0}header p{margin:8px 0 0;color:#cbd5e1}
-main{max-width:1240px;margin:0 auto;padding:24px 20px 40px;display:grid;gap:18px}
-section{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px}
-h2{font-size:18px;margin:0 0 14px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
-.metric{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}.metric span{display:block;color:var(--muted);font-size:13px}.metric b{display:block;margin-top:6px;font-size:24px}
-.good{background:var(--soft);border-color:#bbf7d0}.attention{background:var(--warn);border-color:#fed7aa}.num{text-align:right;font-variant-numeric:tabular-nums}.pos{color:#047857}.neg{color:var(--danger)}
-table{width:100%;border-collapse:collapse;font-size:14px}th,td{border-bottom:1px solid #e5e7eb;padding:10px 8px;text-align:left;vertical-align:top}th{color:#475569;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
-.two{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}@media(max-width:900px){.two{grid-template-columns:1fr}header{padding:22px 20px}}
-.links a{color:#0369a1;margin-right:14px;white-space:nowrap}.note{color:var(--muted);font-size:13px;line-height:1.6}
-.bar{height:10px;border-radius:999px;background:#e5e7eb;overflow:hidden}.bar i{display:block;height:100%;background:#15803d;width:16.3%}
+:root{--bg:#f5f7f8;--ink:#111827;--muted:#667085;--line:#d6dde5;--panel:#fff;--brand:#0f5132;--brand2:#146c43;--soft:#eaf7ef;--warn:#fff4e5;--bad:#9f1239;--good:#047857}*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,"Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink)}header{background:#10251a;color:#fff;padding:26px 32px}header h1{margin:0;font-size:28px}header p{margin:8px 0 0;color:#cbd5e1}main{max-width:1240px;margin:0 auto;padding:22px 18px 42px;display:grid;gap:16px}section{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:18px}h2{font-size:18px;margin:0 0 14px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:12px}.metric{border:1px solid var(--line);border-radius:8px;padding:14px;background:#fff}.metric span{display:block;color:var(--muted);font-size:13px}.metric b{display:block;margin-top:6px;font-size:24px}.good{background:var(--soft);border-color:#b7e4c7}.warn{background:var(--warn);border-color:#fed7aa}button{border:0;border-radius:8px;background:var(--brand2);color:white;padding:11px 14px;font-weight:700;cursor:pointer}button:hover{background:var(--brand)}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.note{font-size:13px;color:var(--muted);line-height:1.6}.num{text-align:right;font-variant-numeric:tabular-nums}.pos{color:var(--good)}.neg{color:var(--bad)}table{width:100%;border-collapse:collapse;font-size:14px}th,td{border-bottom:1px solid #e5e7eb;padding:10px 8px;text-align:left;vertical-align:top}th{font-size:12px;color:#475569;text-transform:uppercase;letter-spacing:.03em}.two{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}.bar{height:10px;border-radius:999px;background:#e5e7eb;overflow:hidden}.bar i{display:block;height:100%;background:#15803d;width:16.3%}pre{white-space:pre-wrap;background:#0b1220;color:#d1e7dd;border-radius:8px;padding:12px;font-size:12px;max-height:180px;overflow:auto}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:4px 9px;color:#475569;background:#fff;font-size:12px}@media(max-width:900px){.two{grid-template-columns:1fr}header{padding:22px 18px}}
 </style>
 </head>
 <body>
-<header>
-  <h1>投资组合看板</h1>
-  <p>基准日：2026-07-27 · 数据快照：2026-07-27T08:25:16.353Z · 账户货币：USD</p>
-</header>
+<header><h1>投资组合作战看板</h1><p>基准日：2026-07-27 · 最近 IBKR 更新：2026-07-27 08:33:24 · 账户货币：USD</p></header>
 <main>
-  <section class="grid">
-    <div class="metric good"><span>净清算值 Net Liquidation</span><b>$20,857.47</b></div>
-    <div class="metric good"><span>现金子弹 Cash</span><b>$3,395.10</b></div>
-    <div class="metric"><span>Buying Power</span><b>$16,678.38</b></div>
-    <div class="metric"><span>Available Funds</span><b>$4,169.60</b></div>
-    <div class="metric"><span>Excess Liquidity</span><b>$4,169.60</b></div>
-    <div class="metric attention"><span>YTD TWR</span><b>-14.36%</b></div>
-  </section>
-
-  <section>
-    <h2>子弹与流动性</h2>
-    <div class="grid">
-      <div class="metric"><span>现金 / 净清算值</span><b>16.3%</b><div class="bar"><i></i></div></div>
-      <div class="metric"><span>股票市值</span><b>$1,031.70</b></div>
-      <div class="metric"><span>期权市值</span><b>$15,843.00</b></div>
-      <div class="metric"><span>杠杆</span><b>0.84</b></div>
-      <div class="metric"><span>Day Trades Remaining</span><b>3</b></div>
-    </div>
-  </section>
-
-  <section class="two">
-    <div>
-      <h2>总组合收益曲线</h2>
-      <img src="charts/total_return_curve.svg" alt="Total return curve" style="width:100%;border:1px solid var(--line);border-radius:8px;background:#fff">
-      <p class="note">收益曲线采用 IBKR broker-reported TWR 口径；交易级别重构收益曲线会在 PMCC 合约绑定完成后进一步完善。</p>
-    </div>
-    <div>
-      <h2>今日读数</h2>
-      <table>
-        <tr><th>项目</th><th class="num">数值</th></tr>
-        <tr><td>持仓数量</td><td class="num">7</td></tr>
-        <tr><td>持仓市值合计</td><td class="num">$16,874.70</td></tr>
-        <tr><td>Initial Margin</td><td class="num">$258.16</td></tr>
-        <tr><td>Maintenance Margin</td><td class="num">$258.16</td></tr>
-        <tr><td>Gross Position Value</td><td class="num">$17,462.37</td></tr>
-      </table>
-    </div>
-  </section>
-
-  <section>
-    <h2>当前持仓</h2>
-    <table>
-      <thead><tr><th>标的</th><th>类型</th><th class="num">数量</th><th class="num">现价</th><th class="num">市值</th><th class="num">浮盈亏</th><th>策略桶</th></tr></thead>
-      <tbody><tr>
-    <td>GOOG</td>
-    <td>OPT</td>
-    <td class="num">1.0000</td>
-    <td class="num">$80.50</td>
-    <td class="num">$8,049.54</td>
-    <td class="num neg">$-3,253.51</td>
-    <td>pmcc_leaps_long_call</td>
-  </tr>
-<tr>
-    <td>IBKR</td>
-    <td>STK</td>
-    <td class="num">0.9847</td>
-    <td class="num">$92.75</td>
-    <td class="num">$91.33</td>
-    <td class="num pos">+$8.47</td>
-    <td>stock</td>
-  </tr>
-<tr>
-    <td>MSFT</td>
-    <td>STK</td>
-    <td class="num">0.0468</td>
-    <td class="num">$385.92</td>
-    <td class="num">$18.06</td>
-    <td class="num pos">+$0.05</td>
-    <td>stock</td>
-  </tr>
-<tr>
-    <td>NVDA</td>
-    <td>STK</td>
-    <td class="num">0.0196</td>
-    <td class="num">$209.02</td>
-    <td class="num">$4.10</td>
-    <td class="num pos">+$0.29</td>
-    <td>stock</td>
-  </tr>
-<tr>
-    <td>NVDA</td>
-    <td>OPT</td>
-    <td class="num">1.0000</td>
-    <td class="num">$77.93</td>
-    <td class="num">$7,793.46</td>
-    <td class="num neg">$-731.59</td>
-    <td>pmcc_leaps_long_call</td>
-  </tr>
-<tr>
-    <td>QQQM</td>
-    <td>STK</td>
-    <td class="num">0.9941</td>
-    <td class="num">$285.76</td>
-    <td class="num">$284.07</td>
-    <td class="num pos">+$33.85</td>
-    <td>stock</td>
-  </tr>
-<tr>
-    <td>TSLA</td>
-    <td>STK</td>
-    <td class="num">2.0000</td>
-    <td class="num">$317.07</td>
-    <td class="num">$634.14</td>
-    <td class="num neg">$-254.85</td>
-    <td>stock</td>
-  </tr></tbody>
-    </table>
-  </section>
-
-  <section>
-    <h2>估值观察</h2>
-    <table>
-      <thead><tr><th>股票</th><th class="num">现价</th><th class="num">2026 中位价</th><th class="num">2026 安全边际</th><th class="num">2027 中位价</th><th class="num">2027 安全边际</th><th>状态</th></tr></thead>
-      <tbody><tr>
-    <td>JPM</td>
-    <td class="num">$353.00</td>
-    <td class="num">$338.66</td>
-    <td class="num neg">-4.06%</td>
-    <td class="num">$342.65</td>
-    <td class="num neg">-2.93%</td>
-    <td>slightly above median / wait</td>
-  </tr>
-<tr>
-    <td>WFC</td>
-    <td class="num">$86.50</td>
-    <td class="num">$92.67</td>
-    <td class="num pos">7.13%</td>
-    <td class="num">$101.38</td>
-    <td class="num pos">17.20%</td>
-    <td>below 2026/2027 median / watch</td>
-  </tr>
-<tr>
-    <td>MS</td>
-    <td class="num">$214.00</td>
-    <td class="num">$152.16</td>
-    <td class="num neg">-28.90%</td>
-    <td class="num">$155.16</td>
-    <td class="num neg">-27.50%</td>
-    <td>above high range / wait</td>
-  </tr>
-<tr>
-    <td>BLK</td>
-    <td class="num">$1,055.00</td>
-    <td class="num">$1,120.94</td>
-    <td class="num pos">6.25%</td>
-    <td class="num">$1,292.62</td>
-    <td class="num pos">22.52%</td>
-    <td>below median / watch</td>
-  </tr></tbody>
-    </table>
-  </section>
-
-  <section>
-    <h2>数据入口</h2>
-    <p class="links">
-      <a href="../portfolio/processed/account_liquidity.csv">account_liquidity.csv</a>
-      <a href="../portfolio/processed/cash_balances.csv">cash_balances.csv</a>
-      <a href="../portfolio/processed/positions.csv">positions.csv</a>
-      <a href="../portfolio/processed/portfolio_nav_curve.csv">portfolio_nav_curve.csv</a>
-      <a href="../valuation/valuation_tables.csv">valuation_tables.csv</a>
-      <a href="../tradingplan/active_watchlist.csv">active_watchlist.csv</a>
-    </p>
-    <p class="note">下一步重点：把 LEAPS 与 short call 的 PMCC 关系绑定到合约级别，让个股收益曲线和期权权利金分摊更精确。</p>
-  </section>
+<section><div class="row" style="justify-content:space-between"><div><h2>手动刷新</h2><p class="note">点击按钮会以点击时间生成刷新请求。IBKR 拉取、收益率重算和 GitHub 写回由 Codex 执行，避免把账户连接暴露在浏览器里。</p></div><button id="refreshBtn">刷新收益率与子弹</button></div><p class="note" id="refreshStatus">等待刷新请求。</p><pre id="requestPreview" hidden></pre></section>
+<section class="grid"><div class="metric good"><span>净清算值 Net Liquidation</span><b>$20,839.45</b></div><div class="metric good"><span>现金子弹 Cash</span><b>$3,395.12</b></div><div class="metric"><span>Buying Power</span><b>$16,682.92</b></div><div class="metric"><span>Available Funds</span><b>$4,170.73</b></div><div class="metric"><span>Excess Liquidity</span><b>$4,170.73</b></div><div class="metric warn"><span>YTD TWR</span><b>-14.25%</b></div></section>
+<section><h2>子弹与流动性</h2><div class="grid"><div class="metric"><span>现金 / 净清算值</span><b>16.3%</b><div class="bar"><i></i></div></div><div class="metric"><span>Gross Position Value</span><b>$17,444.33</b></div><div class="metric"><span>Initial Margin</span><b>$258.54</b></div><div class="metric"><span>Maintenance Margin</span><b>$258.54</b></div><div class="metric"><span>杠杆</span><b>0.84</b></div><div class="metric"><span>Day Trades Remaining</span><b>3</b></div></div></section>
+<section class="two"><div><h2>当前持仓</h2><table><thead><tr><th>标的</th><th>类型</th><th class="num">数量</th><th class="num">市值</th><th class="num">浮盈亏</th><th>策略</th></tr></thead><tbody><tr><td>GOOG Dec17'27 285C</td><td>OPT</td><td class="num">1</td><td class="num">$8,049.54</td><td class="num neg">-$3,253.51</td><td>PMCC long LEAPS</td></tr><tr><td>NVDA Dec17'27 150C</td><td>OPT</td><td class="num">1</td><td class="num">$7,793.46</td><td class="num neg">-$731.59</td><td>PMCC long LEAPS</td></tr><tr><td>TSLA</td><td>STK</td><td class="num">2.0000</td><td class="num">$635.84</td><td class="num neg">-$253.15</td><td>stock</td></tr><tr><td>QQQM</td><td>STK</td><td class="num">0.9941</td><td class="num">$284.34</td><td class="num pos">+$34.12</td><td>stock</td></tr><tr><td>IBKR / MSFT / NVDA</td><td>STK</td><td class="num">small</td><td class="num">$113.71</td><td class="num pos">+$9.04</td><td>fractional stock</td></tr></tbody></table></div><div><h2>合约级绑定</h2><table><thead><tr><th>底层</th><th>LEAPS</th><th class="num">Short Call 净权利金</th><th>状态</th></tr></thead><tbody><tr><td>GOOG</td><td>2027-12-17 285C</td><td class="num pos">$720</td><td><span class="pill">partial</span></td></tr><tr><td>NVDA</td><td>2027-12-17 150C</td><td class="num pos">$329</td><td><span class="pill">partial</span></td></tr></tbody></table><p class="note">LEAPS 已经绑定到具体合约；历史 short call 交易缺少完整 expiry/strike 字段，目前先按 underlying + 时间归因。</p></div></section>
+<section><h2>刷新数据文件</h2><p class="note">已生成：<a href="refresh-request.json">dashboard/refresh-request.json</a> · <a href="../portfolio/processed/option_contract_bindings.csv">option_contract_bindings.csv</a> · <a href="../portfolio/processed/pmcc_strategy_ledger.csv">pmcc_strategy_ledger.csv</a> · <a href="refresh-workflow.md">refresh-workflow.md</a></p></section>
 </main>
+<script>const latest={net_liquidation:20839.45,total_cash_value:3395.12,buying_power:16682.92,available_funds:4170.73,excess_liquidity:4170.73,ytd_twr:-0.14248793};document.getElementById("refreshBtn").addEventListener("click",()=>{const payload={type:"manual_refresh_request",requested_at:new Date().toISOString(),base_date:"2026-07-27",action:"Ask Codex to refresh IBKR data from last_sync through requested_at, then update GitHub dashboard files.",latest_displayed_snapshot:latest};localStorage.setItem("portfolio_dashboard_refresh_request",JSON.stringify(payload,null,2));document.getElementById("refreshStatus").textContent="刷新请求已生成："+payload.requested_at+"。把这个请求交给 Codex 后，会按该时间增量刷新。";const pre=document.getElementById("requestPreview");pre.hidden=false;pre.textContent=JSON.stringify(payload,null,2);});</script>
 </body>
 </html>
