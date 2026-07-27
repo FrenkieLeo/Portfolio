@@ -1,0 +1,15 @@
+{
+  "repository": "FrenkieLeo/Portfolio",
+  "source": "Interactive Brokers",
+  "period": "YEAR_TO_DATE",
+  "generated_at": "2026-07-27T08:14:16.941Z",
+  "ibkr_last_successful_update": "2026-07-27 08:14:08",
+  "ibkr_account_start": "20251203",
+  "ibkr_account_end": "20260727",
+  "trades_count": 77,
+  "positions_count": 7,
+  "open_orders_count": 0,
+  "saved_instructions_count": 0,
+  "net_liquidation": 20816.29,
+  "currency": "USD"
+}
